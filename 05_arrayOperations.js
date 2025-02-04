@@ -35,7 +35,7 @@ const filterNameStartByA = (array) => array.filter((elt) => elt.charAt(0) === "A
  *   - Vous ne pouvez pas utiliser de variable (autre que l'argument de la fonction)
   */
 
-const sum = (array) => array.reduce((somme, current) => somme + current);
+const sum = (array) => array.reduce((somme, current) => somme + current, 0);
 
 /**
  * Utiliser la fonction .find sur le tableau passé en paramètre
